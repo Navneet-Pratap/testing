@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Python Automation Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio for a Python Automation Engineer — skills, projects, contact" />
+</head>
+<body>
+  <header class="top" id="top">
+    <nav class="nav">
+      <div class="brand">Automation • Portfolio</div>
+      <div class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="https://cdn.coverr.co/videos/coverr-abstract-background-1460/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-inner">
+        <h1 id="heroName">Your Name — Python Automation Engineer</h1>
+        <p id="heroTag">I build reliable automation and developer tooling.</p>
+        <div class="hero-cta">
+          <button id="viewProjects">View Projects</button>
+          <button id="downloadCV">Download CV</button>
+        </div>
+        <div class="hero-tools" id="heroTools"></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb"></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="panel intro-panel reveal">
+      <div class="panel-copy">
+        <h2>About</h2>
+        <p>I create automation systems, developer tools, and CI workflows that reduce manual effort and improve reliability.</p>
+        <p>From resilient test suites to infrastructure provisioning pipelines, everything is designed for repeatability and trust.</p>
+        <ul class="about-list">
+          <li>Design and build robust Python automation for QA, infra, and data operations.</li>
+          <li>Maintain clean, reusable tooling with versioned releases and clear documentation.</li>
+          <li>Integrate automated workflows into CI/CD pipelines and deployment processes.</li>
+        </ul>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span>8+</span>
+          <p>Years automating test and infrastructure workflows</p>
+        </div>
+        <div class="metric-card">
+          <span>25+</span>
+          <p>Python automation scripts and toolkits delivered</p>
+        </div>
+        <div class="metric-card">
+          <span>100%</span>
+          <p>Pipeline success rate improved through automation</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="panel reveal">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>Core capabilities and the technologies I use day to day.</p>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <!-- populated by script -->
+      </div>
+    </section>
+
+    <section id="projects" class="panel reveal">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Selected automation work with business impact, engineered in Python.</p>
+      </div>
+      <div class="projects-controls">
+        <input id="projectFilter" placeholder="Filter projects (e.g. web, infra, tests)" />
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- populated by script -->
+      </div>
+    </section>
+
+    <section id="contact" class="panel contact reveal">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Ready to connect? Replace this section with your preferred contact details in `data/profile.json`.</p>
+      </div>
+      <div class="contact-cards">
+        <div class="card contact-card">
+          <strong>Email</strong>
+          <p id="email">you@example.com</p>
+        </div>
+        <div class="card contact-card">
+          <strong>Phone</strong>
+          <p id="phone">+1 234 567 890</p>
+        </div>
+        <div class="card contact-card">
+          <strong>LinkedIn</strong>
+          <p id="linkedin">linkedin.com/in/your-profile</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Made with care — interactive static portfolio scaffold.</small>
+  </footer>
+
+  <template id="projectCardTpl">
+    <article class="project-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3 class="proj-title"></h3>
+          <p class="proj-tags"></p>
+        </div>
+        <div class="card-back">
+          <p class="proj-desc"></p>
+          <div class="proj-links"></div>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>

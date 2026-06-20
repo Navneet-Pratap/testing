@@ -1,0 +1,12 @@
+{
+  "name": "Your Name",
+  "title": "Python Automation Engineer",
+  "tagline": "I build reliable automation and developer tooling.",
+  "email": "you@example.com",
+  "location": "Your City, Country",
+  "phone": "+1 234 567 890",
+  "linkedin": "linkedin.com/in/your-profile",
+  "cv": "assets/YourName_CV.pdf",
+  "summary": "Experienced in test automation, infrastructure automation, and developer tooling using Python.",
+  "tools": ["pytest", "GitHub Actions", "Terraform", "Docker", "AWS"]
+}

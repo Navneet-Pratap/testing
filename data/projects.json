@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pyrunner",
+    "title": "PyRunner — Test Orchestrator",
+    "tags": ["python","tests","ci"],
+    "short": "Orchestrates end-to-end test runs with parallel workers and reporting.",
+    "description": "A lightweight orchestration tool to run test suites in parallel, aggregate results, and push artifacts to S3. Built with asyncio and rich logging.",
+    "links": [{"label":"Repo","url":"https://example.com/repo"}]
+  },
+  {
+    "id": "infra-ops",
+    "title": "Infra Ops — IaC Utilities",
+    "tags": ["infra","terraform","python"],
+    "short": "Utilities for CI-driven infrastructure provisioning and drift detection.",
+    "description": "Collection of tools to automate Terraform workflows, validate state, and run drift detection policies as part of CI pipelines.",
+    "links": [{"label":"Demo","url":"https://example.com/infra"}]
+  },
+  {
+    "id": "devtools",
+    "title": "DevTools — CLI Helpers",
+    "tags": ["cli","python","tooling"],
+    "short": "Productivity CLIs for developers (scaffolding, linting helpers).",
+    "description": "A suite of CLI utilities to speed up common developer tasks, with pluggable commands.",
+    "links": []
+  }
+]
